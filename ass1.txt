@@ -1,0 +1,58 @@
+Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+
+A data type is used to mention what kind of data used in variable.
+
+Types of data types:-
+1.Primitive
+2.Non-Primitive
+
+1.Primitive:-It can store single values,they are default.
+String,number,boolean,null,undefined are primitive datatypes.
+
+String:-Sequence of characters enclosed within double quotes,single quotes,backticks.
+Example:
+let name = "John"; 
+let greeting = 'Hello'; 
+let template = Hi, ${name}; 
+
+
+Number:-It stores all the number data such as integer,float values,etc..
+Example:
+let age = 25; 
+let price = 19.99
+
+Boolean:-true/false
+Example:
+let isStudent = true;
+let isSenior = false;
+
+Undefined:-Any variable declared but not initialized.
+Example:
+let uninitialized;
+console.log(uninitialized); 
+
+Null:-Empty of object
+Example:
+let emptyValue = null;
+
+
+2.Non-Primitive:-It can store multiple values,they are user defined.
+ functions, arrays , objects are primitive data types
+
+Functions:-Represent a block of reusable code.
+Example:
+let greet = function() {
+  console.log("Hello");
+};
+
+Arrays:-Store a collection of elements, indexed by numbers.
+Example:
+let fruits = ["Apple", "Banana", "Cherry"];
+
+Objects:-Represent key-value pairs or more complex structures.
+Example:
+let person = {
+  name: "Alice",
+  age: 30,
+  isStudent: false
+};
